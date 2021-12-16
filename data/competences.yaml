@@ -1,0 +1,51 @@
+dev:
+  name: "Développement WEB"
+  skills:
+    html:
+      icon: "fab fa-html5"
+      name: "HTML 5"
+      stars: 4
+    css:
+      icon: "fab fa-css3-alt"
+      name: "CSS 3"
+      stars: 3.5
+    php:
+      icon: "fab fa-php"
+      name: "PhP"
+      stars: 3
+    yaml:
+      icon: "fab fa-php"
+      name: "Yaml"
+      stars: 3.5
+
+reseau:
+  name: 'Réseau'
+  skills:
+    Packet Tracer:
+      icon: 'fas fa-globe'
+      name: 'Packet Tracer'
+      stars: 3.5
+    Linux:
+      icon: 'fab fa-linux'
+      name: 'Linux'
+      stars: 3
+      
+
+langues:
+  name: 'Langues'
+  skills:
+    Français:
+      icon: 'fas fa-flag'
+      name: 'Français'
+      stars: 5
+    Anglais:
+      icon: 'fas fa-font'
+      name: 'Anglais'
+      stars: 3.5
+    Espagnol:
+      icon: 'fab fa-etsy'
+      name: 'Espagnol'
+      stars: 4 
+  
+    
+    

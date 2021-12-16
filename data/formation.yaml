@@ -1,0 +1,14 @@
+collège:
+   poste: Collège
+   caption: "De 2014 à 2018 - Caen"
+   descriptif: Collège Saint Pierre Lebisey 
+
+lycée:
+   poste: lycée
+   caption: "De 2018 à 2021 - Caen"
+   descriptif: Lycée Charles de Gaulle
+
+BTS:
+   poste: BTS SIO
+   caption: "En cours - Caen"
+   descriptif: SupAvenir Sainte-Ursule

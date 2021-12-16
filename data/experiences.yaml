@@ -1,0 +1,14 @@
+stage_3:
+   poste: Stage de 3e
+   caption: "2017 - Caen"
+   descriptif: Stage en Architecture<br>Dédcouverte du métier avec les logiciels et déplacement sur les chantiers
+
+stage_1:
+   poste: Stage de 1ère
+   caption: "2019 - Caen"
+   descriptif: Stage en commerce<br>decouverte de vente et de 
+
+stage_T:
+   poste: Stage de Terminale
+   caption: "2020 - Caen"
+   descriptif: Stage en Informatique 

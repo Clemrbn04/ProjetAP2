@@ -1,0 +1,258 @@
+body {
+    background-image: linear-gradient(to right top, #026f6a, #006870, #005f73, #005674, #0b4d71);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+
+    font-family: "Open Sans", sans-serif;
+    color: mintcream;
+
+    height: calc(100% - 50px);
+    margin: 0;
+    width: 100%;
+}
+
+html {
+    height: 100%;
+}
+
+#apropos p{
+    text-align: center;
+}
+
+.master-title {
+    height: 42vh;
+    width: 100%;
+    padding-top: 150px;
+}
+
+.secondary-title {
+    min-height: 250px;
+    width: 100%;
+    padding-top: 75px;
+}
+
+.master-title h1, .secondary-title h1 {
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 50px;
+}
+
+.master-title > hr, .secondary-title > hr, hr.white {
+    text-align: center;
+    width: 200px;
+    height: 4px;
+    background-image: linear-gradient(to right top, #f6f6f6, #f6f6f6, #f5f5f5, #f5f5f5, #f4f4f4);
+}
+
+hr.blue {
+    text-align: center;
+    width: 200px;
+    height: 4px;
+    background-image: linear-gradient(to right top, #026f6a, #006870, #005f73, #005674, #0b4d71);
+}
+
+hr.light {
+    width: 150px;
+    height: 3px;
+}
+
+.page-content {
+    width: 100%;
+    background-image: linear-gradient(to right top, #f6f6f6, #f6f6f6, #f5f5f5, #f5f5f5, #f4f4f4);
+    color: #666;
+    position: relative;
+    border-top: #161616 solid 1px;
+}
+
+.bg-white {
+    background-image: linear-gradient(to right top, #f6f6f6, #f6f6f6, #f5f5f5, #f5f5f5, #f4f4f4);
+    color: #666;
+    text-align: center;
+}
+
+.bg-blue {
+    background-image: linear-gradient(to right top, #026f6a, #006870, #005f73, #005674, #0b4d71);
+    color: mintcream;
+}
+
+.first-content {
+    min-height: calc(50vh - 150px);
+}
+
+.second-content {
+    min-height: calc(100vh - 426px);
+}
+
+.profile-img {
+    border-radius: 50%;
+    border: #161616 solid 1px;
+    border-bottom: none;
+    object-fit: cover;
+    object-position: top;
+}
+
+.first-content .profile-img {
+    position: absolute;
+    top: -125px;
+    left: calc(50% - 125px);
+    height: 250px;
+    width: 250px;
+}
+
+.second-content .profile-img {
+    position: absolute;
+    top: -75px;
+    left: calc(50% - 75px);
+    height: 150px;
+    width: 150px;
+}
+
+.star {
+    color: #fdc601;
+}
+
+.card {
+    padding: 20px;
+    width: calc(100% - 40px);
+    border-radius: 5px;
+    box-shadow: 0 0 2px 0.5px #2f2f2f;
+    position: relative;
+}
+
+.title {
+    font-size: 25px;
+    text-transform: uppercase;
+    color: #005f73;
+}
+
+
+
+/*/
+/*/
+nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    padding: 15px 5px;
+    width: calc(100% - 10px);
+    z-index: 1000;
+    transition: .2s all;
+    
+    background-color: #f5f5f5;
+    color: #005f73;
+    box-shadow: 2px 0 3px 0.5px #2f2f2f;
+}
+
+nav ul {
+    padding: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+nav ul li {
+    list-style-type: none;
+}
+
+nav ul li a {
+    padding: 20px 70px;
+    border-radius: 5px;
+    color: inherit;
+    text-decoration: inherit;
+    transition: .2s all;
+}
+
+
+nav ul li.selected a {
+    background-color: #005f73;
+    color: #f6f6f6;
+}
+
+nav ul li a:hover {
+    background-color: #005f73;
+    color: #f6f6f6;
+    cursor: pointer;
+}
+
+
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    color: #666;
+    height: 10px;
+    width: calc(100% - 40px);
+    padding: 20px;
+    font-size: 14px;
+    position: absolute;
+    background-color: #f5f5f5;
+}
+
+/*/
+/*/
+
+.container {
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-bottom: 50px;
+}
+
+form.container input, form.container textarea {
+    width: 100%;
+    margin-bottom: 20px;
+    margin-top: 10px;
+    padding: 5px 3px;
+    border-radius: 3px;
+    border: #666 0.1px solid;
+}
+
+form.container .content {
+    text-align: left;
+}
+
+form.container button {
+    border-radius: 3px;
+    border: #666 0.1px solid;
+    background-color: #005f73;
+    color: #f6f6f6;
+    padding: 10px;
+    position: absolute;
+    right: 30px;
+    bottom: 30px;
+}
+
+.content {
+    padding: 20px;
+    text-align: center;
+}
+
+.content p {
+    text-align: left;
+    margin: 30px 100px;
+}
+
+.content.left {
+    padding-right: 150px;
+    text-align: right;
+}
+
+.content.right {
+    padding-left: 150px;
+    text-align: left;
+}
+
+.w-25 {
+    width: 25%;
+}
+
+.w-50 {
+    width: 50%;
+    resize: none;
+}
+
+.w-100 {
+    width: 100%;
+}
