@@ -4,6 +4,7 @@ $data=yaml_parse_file('data/experiences.yaml');
 
 <div class="secondary-title">
     <h1>Expériences</h1>
+    <h3><a href="cv.pdf">Mon cv (PDF)</a></h3>
     <hr>
     <div class="container">
     <?php
@@ -16,7 +17,7 @@ $data=yaml_parse_file('data/experiences.yaml');
                     ?>
                     <hr class="blue">
                     <?php
-                    echo '<center><p>'.$val['descriptif'].'</center></p>';
+                    echo '<p>'.$val['descriptif'].'</p>';
                     ?>
                     <hr>
                     <?php

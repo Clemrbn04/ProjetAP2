@@ -125,6 +125,21 @@ hr.light {
     color: #005f73;
 }
 
+.blue p{
+    text-align: center;
+    color: red;
+}
+
+#experiences a{
+    text-align: center;
+    color: #f5f5f5;
+}
+
+#experiences h3{
+    text-align: center;
+}
+
+
 
 
 /*/
@@ -230,7 +245,7 @@ form.container button {
 }
 
 .content p {
-    text-align: left;
+    /*text-align: left;*/
     margin: 30px 100px;
 }
 
